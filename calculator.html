@@ -1,0 +1,62 @@
+!DOCTYPE html>
+<html>
+    <head>
+        <title>Mini Calculator</title>
+       
+    </head>
+    <body>
+        <script type="text/javascript">
+            function addition(){
+                a=Number(document.my_cal.first.value);
+                b=Number(document.my_cal.second.value);
+               c=a+b;
+               document.my_cal.total.value=c;
+            }
+            function subtraction(){
+                 a=Number(document.my_cal.first.value);
+                b=Number(document.my_cal.second.value);
+                c=a-b;
+               document.my_cal.total.value=c;
+
+            }
+            function multiplication(){
+                a=Number(document.my_cal.first.value);
+                b=Number(document.my_cal.second.value);
+                c=a*b;
+               document.my_cal.total.value=c;
+
+            }
+            function division(){
+                a=Number(document.my_cal.first.value);
+                b=Number(document.my_cal.second.value);
+                c=a/b;
+               document.my_cal.total.value=c;
+
+            }
+            function modulus(){
+                  a=Number(document.my_cal.first.value);
+                   b=Number(document.my_cal.second.value);
+                   c=a%b;
+               document.my_cal.total.value=c;
+
+            }
+
+        </script>
+        <!--opening html form-->
+        <h4>Perform arithmetic operations</h4>
+       
+        <form name="my_cal">
+            Number1:<input type="text" name="first">
+            <br>
+            Number2:<input type="text" name="second">
+            <br><br>
+            <input type="button" value="ADD" onclick="javascript:addition();">
+            <input type="button" value="SUB" onclick="javascript:subtraction();">
+            <input type="button" value="MUL" onclick="javascript:multiplication();">
+            <input type="button" value="DIV" onclick="javascript:division();">
+            <input type="button" value="MOD" onclick="javascript:modulus();">
+            <br><br>
+            Get Result:<input type="text" name="total">
+        </form>
+    </body>
+</html>
