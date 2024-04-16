@@ -1,0 +1,80 @@
+!DOCTYPE html>
+<html>
+       <head>
+             <title>
+                    ID Card
+                    </title>
+                    <style>
+                    .adrs{
+                           display: inline-block;
+                           color: red;
+                           background-color: MediumSeaGreen;
+                           margin-top: -30px;
+                           margin-left: 30%;
+                           padding-left: 110px;
+                           padding-right: 120px;
+
+
+                    }
+                    .image1{
+                             background-color: MediumSeaGreen;
+                             margin: 0 30% 0 30%;
+                             width:500px;
+
+                    }
+                    .image2{
+                            width:200px;
+                            margin-left: 40%;
+                            border:1.5px solid red;
+
+                    }
+                    h4{
+                         text-align:center;
+                         margin-right: 7%;
+                         font-size: large;
+                         margin-top: 0px;
+                         margin-bottom: 10px;
+                    }
+                    .lta{
+
+                          display: inline-block;
+                    }
+                    .btm{
+                         display: inline-block;
+                         margin-left: 30%;
+                         background-color: MediumSeaGreen;
+                         width: 500px;
+                    }
+                    .txt{
+                          color: rgb(255, 255, 0);
+
+                    }
+                    div{
+                          align-items: center;
+                    }
+
+            </style>
+            </head>
+            <body>
+                <div>
+                <img class=image1 src="https://www.sasi.ac.in/wp-content/uploads/2022/11/SASI-LOGO-960x188-1-800x157.png ">
+                <p class="adrs">Tadepalligudem - 534101, www,sasi.ac.in</p>
+                <img src="profile.jrg.webp" alt+"Student I'd"
+        class=image2 >
+                        <h4 style="color:#cc0000" >G.N JYOTHI</h4>
+                        <h4 style="color:#000066">B.Tech - CSE</h4>
+                        <h4 style="color:#800000">22K61A0537</h4>
+                        <p align="center">
+                        <img align ="center" src="https://barcode.tec-it.com/barcode.ashx?data=22K61A0537&code=Code128&multiplebarcodes=true&translate-esc=on" alt="images" style="width:200px;height:50px;"></p>
+                        <span class="btm">
+                                  <span class="lta"><span class="txt">Aadhar No:</span> 916529634681</span>
+                                  <span style="margin-left:40%"><span class="txt">Valid:</span>2022-26</span><br>
+                                  <span class="lta"><span class="txt">Father:</span> GANJI CHINNA NAGARAJU </span>
+                                  <span style="margin-left:35%;"><span class="txt">B.G:</span> </span><br>
+                                  <span class="lta"><span class="txt">Village: </span> NYAYAMPALLI</span><br>
+                                  <span class="lta"><span class="txt">Cell: </span>8019756918</span>
+                                  <span style="margin-left: 60%">Principal</span>
+                        </span>
+                    </div>
+              </body>
+</html>
